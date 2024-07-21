@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  background-image: url(https://wallpaperaccess.com/full/2641047.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  width: 65%;
+}
+
+#content h1 {
+  margin: 0;
+  text-align: center;
+}
+
+#content h3 {
+  text-align: end;
+  margin: 0 50px;
+}
+
+#content pre {
+  font-size: 18px;
+}
+
+#avatar {
+  width: 30%;
+  overflow: hidden;
+}
+
+#avatar img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}

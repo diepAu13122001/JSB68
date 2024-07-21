@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .flag-group {
+    grid-template-columns: auto;
+  }
+}
+
+.flag-group {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+  /* background-color: red; */
+}
+
+.vietnam {
+  position: relative;
+  background-color: red;
+
+}
+
+.vietnam::before {
+  content: "";
+  background: url(https://www.clipartqueen.com/image-files/yellow-star-3.png);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  /* right: 50%; */
+  /* bottom: 50%; */
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
