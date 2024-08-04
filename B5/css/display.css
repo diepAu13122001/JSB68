@@ -1,0 +1,29 @@
+#inline,
+#inline-block,
+#block,
+#none {
+  background-color: red;
+  /* padding: 20px; */
+  width: 200px;
+  height: 100px;
+}
+
+/* khong chinh duoc width va height */
+#inline {
+    display: inline;
+}
+
+/* chinh height + width (khong xuong hang) */
+#inline-block{
+    display: inline-block;
+}
+
+/* chinh duoc height + width (xuong hang) */
+#block {
+    display: block;
+}
+
+/* an component */
+#none {
+    display: none;
+}

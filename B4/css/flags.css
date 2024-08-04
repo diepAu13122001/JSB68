@@ -3,12 +3,6 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 600px) {
-  .flag-group {
-    grid-template-columns: auto;
-  }
-}
-
 .flag-group {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -57,4 +51,12 @@ body {
   height: 50%;
   top: 50%;
   left: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .flag-group {
+    grid-template-columns: 1fr;
+  }
 }
